@@ -3,14 +3,14 @@
     "compilerOptions": {
         "outDir": "lib",
 
-        "module": "ES2020",
+        "module": "CommonJS",
         "moduleResolution": "Node",
-        "importHelpers": true,
+        // "importHelpers": true,
 
         "declaration": true,
-        "declarationDir": "lib",
+        "declarationDir": "lib"
 
-        "plugins": [{ "transform": "typescript-transform-extensions", "extensions": { ".ts": ".js" } }]
+        // "plugins": [{ "transform": "typescript-transform-extensions", "extensions": { ".ts": ".js" } }]
     },
     "include": ["src/**/*"],
     "exclude": ["src/**/*.spec.ts"]
